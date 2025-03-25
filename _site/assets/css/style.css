@@ -1,12 +1,10 @@
 /* Site Header Styles */
 .site-header {
-    /* background-color: #333; */
+    background-color: #333;
     color: #fff;
     padding: 1rem 0;
-    /* border-bottom: 3px solid #ff6f61; */
-    position: absolute;
+    border-bottom: 3px solid #ff6f61;
     width: 100%;
-    left: 0;
   }
   
   .site-title {
@@ -192,12 +190,13 @@
   }
 
   .hero-section{
-    background-image: url('../images/home.jpeg');
+    /* background-image: url('../images/home.jpeg'); */
     height: calc(100vh - 100px);
     width: 100%;
     display: flex;
     justify-content: center;
     background-size: cover;
+    background-color: #333;
     background-position: center;
     align-items: center;
   }
@@ -288,4 +287,51 @@
   width: 50%;
   height: auto;
   border-radius: 5px;
+}
+
+.section-title{  
+  padding: 100px 0;
+  background-color: #333;
+  height: 600px;
+}
+
+.section-title .wrapper{
+  max-width: 920px;
+  margin: auto;
+  padding-right: 30px;
+  padding-left: 30px;  
+}
+
+.breadcrumb{
+  color: #fff;
+}
+.breadcrumb a{
+  color: #fff;
+}
+
+.contact-section{
+  padding: 100px 0;
+}
+
+.address-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+.address-card  .icon {
+  color: #4b0082;
+  font-size: 20px;
+}
+.address-card  h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+.address-card  p {
+  margin: 5px 0;
+  color: #666;
 }
