@@ -1,0 +1,28 @@
+<footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About</h3>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+          <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Me</h3>
+        <ul class="social-links">
+          <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+          <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
