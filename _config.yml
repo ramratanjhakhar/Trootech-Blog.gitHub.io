@@ -1,8 +1,8 @@
-title: Your Blog Title
+title: TRooTech Blog
 description: A single-page blog about your interests.
-theme: minima  # Use a free theme like "minima"
-url: "https://yourblogurl.com"  # Replace with your actual URL
+theme: minimal  # Use a free theme like "minima"
+url: "https://trootech-knowledgebase.com"  # Replace with your actual URL
 baseurl: ""  # Leave empty if your site is at the root
 author:
-  name: Your Name
-  email: your.email@example.com
+  name: Vishal Nakum
+  email: vishal.nakum@trootech.com
