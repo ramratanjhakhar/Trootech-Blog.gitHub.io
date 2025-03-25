@@ -1,6 +1,6 @@
 title: TRooTech Blog
 description: A single-page blog about your interests.
-theme: minimal  # Use a free theme like "minima"
+theme: jekyll-theme-minimal  # Use a free theme like "minima"
 url: "https://trootech-knowledgebase.com"  # Replace with your actual URL
 baseurl: ""  # Leave empty if your site is at the root
 author:
